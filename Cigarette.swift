@@ -29,7 +29,7 @@ class Cigarette {
     }
 
     func totalLifelost(_ items: Int)->Int {
-        return maxAge - Int(self.realLife(1))
+        return maxAge - Int(self.realLife(items))
     }
     
 }
